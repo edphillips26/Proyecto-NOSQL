@@ -1,0 +1,1 @@
+mongodb://cosmosdbmongo-parqueo:t5yp45ElUOe2xMQChJdySD3DnOGkCAZ22t6bZ6DzILDUg6ImEWjos2ccs8O8eM2KIUP3RE4SubDIXUYwKC6AKQ==@cosmosdbmongo-parqueo.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@cosmosdbmongo-parqueo@
