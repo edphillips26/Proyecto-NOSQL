@@ -1,0 +1,20 @@
+{
+  "Numero_placa": 970,
+  "Hora_entrada": 22,
+  "Hora_salida": 23,
+  "Precio_final": 1900
+}
+{
+  "_id": 9,
+  "Numero_placa": 970,
+  "Hora_entrada": 22,
+  "Hora_salida": 23,
+  "Precio_final": 1900
+}
+{
+  "_id": 8,
+  "Numero_placa": 970,
+  "Hora_entrada": 6,
+  "Hora_salida": 8,
+  "Precio_final": 1900
+}
