@@ -1,0 +1,7 @@
+db.inventory.updateOne(
+   { _id: "12" },
+   {
+     $set: { "placa.972": "974"},
+     $currentDate: { lastModified: true }
+   }
+)
