@@ -1,0 +1,3 @@
+db.plantilla.find( { _id: "17" } )
+db.plantilla.find( { _id: "25" } )
+db.plantilla.find( { _id: "33" } )
