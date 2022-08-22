@@ -1,0 +1,3 @@
+db.plantilla.deleteMany({ _id : "9" })
+db.plantilla.deleteMany({ _id : "8" })
+db.plantilla.deleteMany({ _id : "1" })
