@@ -1,4 +1,4 @@
-db.inventory.updateOne(
+db.plantilla.updateOne(
    { _id: "12" },
    {
      $set: { "placa.972": "974"},
