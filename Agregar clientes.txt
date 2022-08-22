@@ -36,3 +36,40 @@ db.clientes.insertMany([
      '13': 240,
      '14': 350,
      '15': 260 } }
+
+db.clientes.insertMany([ 
+
+{ _id:10102, Tipo_cliente:100,Hora_entrada:22,Hora_salida:23,Contador_entradas:12 },
+{ _id:10103, Tipo_cliente:300,Hora_entrada:00,Hora_salida:22,Contador_entradas:200 },
+{ _id:10104, Tipo_cliente:100,Hora_entrada:23,Hora_salida:23,Contador_entradas:36 },
+{ _id:10105, Tipo_cliente:300,Hora_entrada:24,Hora_salida:18,Contador_entradas:587 },
+{ _id:10106, Tipo_cliente:300,Hora_entrada:22,Hora_salida:23,Contador_entradas:344 },
+{ _id:10107, Tipo_cliente:100,Hora_entrada:10,Hora_salida:24,Contador_entradas:388 },
+{ _id:10108, Tipo_cliente:100,Hora_entrada:22,Hora_salida:23,Contador_entradas:2444 },
+{ _id:10109, Tipo_cliente:300,Hora_entrada:09,Hora_salida:14,Contador_entradas:22 },
+{ _id:10111, Tipo_cliente:100,Hora_entrada:22,Hora_salida:16,Contador_entradas:321 },
+{ _id:10112, Tipo_cliente:300,Hora_entrada:08,Hora_salida:24,Contador_entradas:190 },
+{ _id:10113, Tipo_cliente:100,Hora_entrada:22,Hora_salida:23,Contador_entradas:500 },
+{ _id:10114, Tipo_cliente:300,Hora_entrada:12,Hora_salida:13,Contador_entradas:45 },
+{ _id:10115, Tipo_cliente:100,Hora_entrada:22,Hora_salida:24,Contador_entradas:3900 },
+{ _id:10116, Tipo_cliente:300,Hora_entrada:17,Hora_salida:24,Contador_entradas:905678 },
+{ _id:10117, Tipo_cliente:100,Hora_entrada:11,Hora_salida:23,Contador_entradas:2034 },
+{ _id:10118, Tipo_cliente:100,Hora_entrada:22,Hora_salida:13,Contador_entradas:344 }])
+{ acknowledged: true,
+  insertedIds: 
+   { '0': 10102,
+     '1': 10103,
+     '2': 10104,
+     '3': 10105,
+     '4': 10106,
+     '5': 10107,
+     '6': 10108,
+     '7': 10109,
+     '8': 10111,
+     '9': 10112,
+     '10': 10113,
+     '11': 10114,
+     '12': 10115,
+     '13': 10116,
+     '14': 10117,
+     '15': 10118 } }
