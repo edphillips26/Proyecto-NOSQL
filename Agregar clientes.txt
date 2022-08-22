@@ -1,0 +1,38 @@
+use proyecto
+'switched to db proyecto'
+db.clientes.insertMany([ 
+
+{ _id:1000, Tipo_cliente:100,Hora_entrada:22,Hora_salida:23,Contador_entradas:11 },
+{ _id:120, Tipo_cliente:300,Hora_entrada:00,Hora_salida:22,Contador_entradas:200 },
+{ _id:130, Tipo_cliente:100,Hora_entrada:23,Hora_salida:23,Contador_entradas:36 },
+{ _id:140, Tipo_cliente:300,Hora_entrada:24,Hora_salida:18,Contador_entradas:587 },
+{ _id:150, Tipo_cliente:300,Hora_entrada:22,Hora_salida:23,Contador_entradas:2400 },
+{ _id:160, Tipo_cliente:100,Hora_entrada:10,Hora_salida:24,Contador_entradas:388 },
+{ _id:170, Tipo_cliente:100,Hora_entrada:22,Hora_salida:23,Contador_entradas:1900 },
+{ _id:180, Tipo_cliente:300,Hora_entrada:09,Hora_salida:14,Contador_entradas:22 },
+{ _id:190, Tipo_cliente:100,Hora_entrada:22,Hora_salida:16,Contador_entradas:2900 },
+{ _id:200, Tipo_cliente:300,Hora_entrada:08,Hora_salida:24,Contador_entradas:190 },
+{ _id:210, Tipo_cliente:100,Hora_entrada:22,Hora_salida:23,Contador_entradas:500 },
+{ _id:220, Tipo_cliente:300,Hora_entrada:12,Hora_salida:13,Contador_entradas:66 },
+{ _id:230, Tipo_cliente:100,Hora_entrada:22,Hora_salida:24,Contador_entradas:3900 },
+{ _id:240, Tipo_cliente:300,Hora_entrada:17,Hora_salida:24,Contador_entradas:908 },
+{ _id:350, Tipo_cliente:100,Hora_entrada:11,Hora_salida:23,Contador_entradas:2034 },
+{ _id:260, Tipo_cliente:100,Hora_entrada:22,Hora_salida:13,Contador_entradas:101 }])
+{ acknowledged: true,
+  insertedIds: 
+   { '0': 1000,
+     '1': 120,
+     '2': 130,
+     '3': 140,
+     '4': 150,
+     '5': 160,
+     '6': 170,
+     '7': 180,
+     '8': 190,
+     '9': 200,
+     '10': 210,
+     '11': 220,
+     '12': 230,
+     '13': 240,
+     '14': 350,
+     '15': 260 } }
